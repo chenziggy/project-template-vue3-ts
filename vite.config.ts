@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     vue(),
     eslintPlugin({
-      include: ["src/**/*.js", "src/**/*.ts", "src/**/*.vue"],
+      include: ["src/**/*.ts", "src/*.ts", "src/**/*.vue", "src/*.vue"],
     }),
   ],
 });

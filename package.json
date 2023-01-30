@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "lint": "eslint \"{src,mock,__tests__}/**/*.{vue,js}\" --fix",
+    "lint": "eslint \"{src,mock,__tests__}/**/*.{vue,js,ts}\" --fix",
     "prepare": "husky install",
     "preview": "vite preview"
   },
