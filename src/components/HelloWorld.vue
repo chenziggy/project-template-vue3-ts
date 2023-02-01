@@ -1,14 +1,10 @@
-<script lang="ts">
-const b = "xx";
-</script>
-
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref } from "vue"
 
-let props = defineProps<{ msg: string }>();
-let count = ref(0);
-count.value = 1;
-const a = "xixi";
+defineProps<{ msg: string }>()
+let count = ref(0)
+count.value = 1
+const a = "xixi"
 </script>
 
 <template>
