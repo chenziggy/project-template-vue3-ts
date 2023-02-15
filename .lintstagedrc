@@ -1,0 +1,9 @@
+{
+  "*.{js,jsx,vue}": [
+    "prettier --write",
+    "eslint --fix"
+  ],
+  "*.{vue,scss,css}": [
+    "stylelint --fix"
+]
+}

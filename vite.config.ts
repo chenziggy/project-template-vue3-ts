@@ -10,6 +10,9 @@ export default defineConfig({
       eslint: {
         lintCommand: 'eslint "./src/**/*.{vue,js,ts}"',
       },
+      stylelint: {
+        lintCommand: 'stylelint ./src/**/*.{css,vue} --custom-syntax postcss-html',
+      },
       vueTsc: true,
     }),
   ],
